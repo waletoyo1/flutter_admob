@@ -6,8 +6,9 @@ How to Integrate Admob into Flutter Apps
 
 ## Initial Step
 * Add the firebase_admob package in your pubspec.yaml file
-* Add this under the application tag of your manifest.xml file :
-    <meta-data
-    android:name="com.google.android.gms.ads.APPLICATION_ID"
-    android:value="[ADMOB_APP_ID]"/>
+* Add this under the application tag of your manifest.xml file : <p>
+\<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="[ADMOB_APP_ID]"/> 
+ 
+</p>
+ 
 
